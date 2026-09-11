@@ -1,12 +1,9 @@
 using UnityEngine;
 
-public class BuildingType : MonoBehaviour
+public enum BuildingType
 {
-    public enum BuildingType
-    {
-        Restaurant,                         //음식점
-        Customer,                           //고객 집
-        ChargingStation                     //충전소 
+    Restaurant,                         //음식점
+    Customer,                           //고객 집
+    ChargingStation                     //충전소 
 
-    }
 }
